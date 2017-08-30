@@ -1,0 +1,41 @@
+#tableBox {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#heroTable {
+  border: 2px solid green;
+  width: 800px;
+  border-collapse: collapse;
+  margin-top: 100px;
+  color: white;
+  font-size: large;
+}
+
+#heroTable td {
+  border: 1px solid green;
+  width: 400px;
+  text-align: center;
+}
+
+#heroTable th {
+  border: 1px solid green;
+  width: 400px;
+  text-align: center;
+}
+
+#detailBox {
+  width: 800px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
